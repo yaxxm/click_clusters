@@ -15,7 +15,7 @@ from tqdm import tqdm
 import matplotlib.font_manager as fm
 
 # 本地字体文件路径
-LOCAL_FONT_PATH = "/data1/yammyjiang/81814/y_test/点击聚类/font/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf"
+LOCAL_FONT_PATH = "/data1/xiaoming/81814/y_test/点击聚类/font/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf"
 
 # 尝试加载本地字体文件
 try:
@@ -46,10 +46,10 @@ except Exception as e:
 plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
 
 # --- 参数设置 ---
-DATA_PATH = "/data1/yammyjiang/81814/y_test/点击聚类/20250824.txt"
+DATA_PATH = "/data1/xiaoming/81814/y_test/点击聚类/20250824.txt"
 EPS = 0.01
 MIN_SAMPLES = 10
-OUTPUT_DIR = "/data1/yammyjiang/81814/y_test/点击聚类/output"
+OUTPUT_DIR = "/data1/xiaoming/81814/y_test/点击聚类/output"
 
 # --- 性能优化参数 ---
 ENABLE_PARALLEL = True  # 启用并行处理
@@ -768,3 +768,4 @@ if __name__ == "__main__":
     analyze_all_users()
     print("\n[表情] 所有分析任务完成!")
     print("="*60)
+
